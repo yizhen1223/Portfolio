@@ -1,0 +1,59 @@
+tspan{
+	font-family: 'Josefin Sans', 'Noto Sans TC' , sans-serif;
+}
+
+.tb_ranking{
+	width: 80%;
+	margin: 0 auto; 
+	display: none;
+}
+
+.tb_ranking table{
+	width: 40%;
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+.tb_ranking table th{
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+
+.tb_ranking th{
+	padding-top: 0.5em;
+	background-color: #0069D5;
+	color: #FFF;
+}
+.tb_ranking td{
+	font-size: 14px;
+	border-bottom: 1px solid #DDDDDD;
+	line-height: 2em;
+	padding-top: 0.5em;
+}
+
+.no1{
+	background: url("../images/gold-medal.png") center center no-repeat;
+	/*background-image: url("../images/gold-medal.png");
+	background-repeat:no-repeat;
+	background-attachment:fixed;*/
+	width: 20px;
+	height: 20px;
+}
+
+.no2{
+	background: url("../images/silver-medal.png") center center no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.no3{
+	background: url("../images/bronze-medal.png") center center no-repeat;
+	width: 20px;
+	height: 20px;
+}
+
+.img-smile{
+	width: 40%;
+	height: 40%;
+}
